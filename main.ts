@@ -12,6 +12,7 @@ controller.player1.onButtonEvent(ControllerButton.Up, ControllerButtonEvent.Pres
 let Max_Jumps = 0
 let noj = 0
 let Ck1: Sprite = null
+scene.setBackgroundColor(9)
 tiles.setCurrentTilemap(tilemap`level1`)
 stats.turnStats(true)
 Ck1 = sprites.create(img`
@@ -38,3 +39,6 @@ scene.cameraFollowSprite(Ck1)
 Ck1.ay = 150
 noj = 0
 Max_Jumps = 2
+forever(function () {
+	
+})
